@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="libs/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Диомед | О компании</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="navbar fixed-top navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand col" href="/index.html"><img src="images/logo.svg" alt="" /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Переключатель навигации"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-lg-row justify-content-between" id="navbarText">
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/about.html">О клинике</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/services.html">Услуги</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/specialists.html">Врачи</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/news.html">Новости и статьи</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/contacts.html">Контакты и реквизиты</a>
+                </li>
+              </ul>
+              <div class="d-flex align-items-center col justify-content-end phone-header-mobile">
+                <div class="d-flex flex-column align-items-end">
+                  <a href="tel:+78563032303" class="navbar-text onset-medium text-decoration-none p-0"  style="color: #252525 !important;">
+                    <img class="phone-icon" src="images/phone-icon.svg" alt="" />+7 (856) 303-23-03
+                  </a>
+                  <a href="tel:+79490999303" class=" navbar-text onset-medium text-decoration-none p-0 number-mobile">+7 (949) 099-93-03</a>
+                  <span class="onset-medium" style="color: #252525 !important;" >603</span>
+                  <span class="text-body-tertiary fs-12">Круглосуточная запись</span>
+                </div>
+                <a class="btn btn-outline-primary lk" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+                  ><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10.858 12V14.2857C10.858 14.5888 10.7376 14.8795 10.5232 15.0938C10.3089 15.3081 10.0182 15.4286 9.71512 15.4286H1.71512C1.41202 15.4286 1.12133 15.3081 0.907001 15.0938C0.692673 14.8795 0.572266 14.5888 0.572266 14.2857V1.71427C0.572266 1.41116 0.692673 1.12047 0.907001 0.906146C1.12133 0.691819 1.41202 0.571411 1.71512 0.571411H9.71512C10.0182 0.571411 10.3089 0.691819 10.5232 0.906146C10.7376 1.12047 10.858 1.41116 10.858 1.71427V3.99998"
+                      stroke="#006ADC"
+                      stroke-width="1.14286"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path d="M15.428 8H6.28516" stroke="#006ADC" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path
+                      d="M8.57087 5.71423L6.28516 7.99995L8.57087 10.2857"
+                      stroke="#006ADC"
+                      stroke-width="1.14286"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  Личный кабинет</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title onset-bold" id="exampleModalLabel">Регистрация</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-14 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="ФИО" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control input-phone" id="recipient-name" placeholder="Телефон" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="E-mail" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"
+                      ><img src="images/visible.svg" alt=""
+                    /></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Пароль" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"
+                      ><img src="images/visible.svg" alt=""
+                    /></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Повторите пароль" />
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <a class="text-decoration-none text-dark fs-14" data-bs-toggle="modal" data-bs-target="#exampleModalin" href="#"
+                    >У вас уже есть аккаунт? <span class="text-primary">Войти</span></a
+                  >
+
+                  <button type="button" class="btn btn-primary btn-form mt-40">Зарегистрироваться</button>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label fs-12" for="flexCheckDefault">
+                      Я принимаю условия
+                      <span class="text-primary">Политики конфиденциальности,</span>
+                      и даю согласие на обработку
+                      <span class="text-primary">персональных данных</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalin" tabindex="-1" aria-labelledby="exampleModalLabelin" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title onset-bold" id="exampleModalLabel">Войти</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="E-mail или пароль" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Пароль" />
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <a class="text-decoration-none text-dark fs-14" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+                    >У вас нет аккаунта <span class="text-primary">Зарегистрируйтесь</span></a
+                  >
+                  <a class="text-decoration-none text-dark fs-14" data-bs-toggle="modal" data-bs-target="#exampleModalrepair" href="#"
+                    >Забыли пароль? <span class="text-primary">Восстановите</span></a
+                  >
+
+                  <div class="form-check mt-40">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label fs-12" for="flexCheckDefault"> Запомнить меня </label>
+                  </div>
+                  <button type="button" class="btn btn-primary btn-form">Войти</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalrepair" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title onset-bold" id="exampleModalLabel">Восстановление пароля</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="E-mail или пароль" />
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <a class="text-decoration-none text-dark fs-14" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+                    >Назад к <span class="text-primary">авторизации</span></a
+                  >
+
+                  <button type="button" class="btn btn-primary btn-form">Сбросить пароль</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalFeddback" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title onset-bold" id="exampleModalLabel">Здравствуйте!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+
+              <div class="modal-body">
+                <h2 class="fs-14 text-secondary onset-regular">Нам нужно совсем немного информации и мы обязательно свяжемся с вами</h2>
+                <form>
+                  <div class="mb-3 position-relative">
+                    <input type="text" class="form-control mt-3" id="recipient-name" placeholder="ФИО" />
+                    <input type="text" class="form-control input-phone mt-3" id="recipient-phone" placeholder="Телефон" />
+                    <input type="text" class="form-control mt-3" id="recipient-mail" placeholder="E-mail" />
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <button type="button" class="btn btn-primary btn-form" data-bs-toggle="modal" data-bs-target="#exampleModalFeddbackDone">
+                    Отправить
+                  </button>
+                  <div class="form-check mt-40">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label fs-12" for="flexCheckDefault"
+                      >Я принимаю условия <a href="#">Политики конфиденциальности,</a> и даю согласие на обработку
+                      <a href="#"> персональных данных</a></label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalFeddbackDone" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="images/done.svg" alt="" />
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3 position-relative">
+                    <h1 class="onset-bold">Спасибо!</h1>
+                    <p class="text-secondary fs-16">Скоро наш менеджер позвонит вам или пришлет письмо на электронную почту</p>
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <button type="button" class="btn btn-primary btn-form">Отправить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="d-flex align-items-center container assistance">
+          <div class="col-lg-6 col-sm-12">
+            <nav style="--bs-breadcrumb-divider: '/'" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                <li class="breadcrumb-item active" aria-current="page">О компании</li>
+              </ol>
+            </nav>
+            <h1
+              class="onset-bold fs-84 pt-3"
+              style="font-size: clamp(2.25rem, 0.0383rem + 9.0737vw, 5.25rem); line-height: clamp(2.475rem, 0.4292rem + 8.3932vw, 5.25rem)"
+            >
+              <span class="text-primary">Спасаем людей</span> <br />
+              и сохраняем качество жизни
+            </h1>
+            <p class="fs-18 w-100 pt-3">
+              Руководствуемся принципами современной медицины, чтобы пациенты получали максимально качественные услуги от опытных врачей
+            </p>
+            <div class="col pt-6">
+              <button class="btn btn-primary sign" style="padding: 14px 32px; border-radius: 8px">Посмотреть контакты</button>
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <img class="main-img" src="images/main-about.png" style="margin-top: -10px" alt="" />
+          </div>
+        </section>
+        <section class="run">
+          <div class="run__items">
+            <div class="run__item marquee">
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Минимизируем риски для жизни и здоровья</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Госпитализируем в профильное отделение</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+            </div>
+            <div class="run__item marquee">
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Минимизируем риски для жизни и здоровья</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Госпитализируем в профильное отделение</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="mission container pt-100">
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="text-secondary onset-regular">Наша миссия</h3>
+            </div>
+            <div class="col-md-8">
+              <h4 class="fs-40 onset-regular">
+                Внедряем инновационный подход в медицине
+                <span class="text-primary">
+                  <br />
+                  для повышения качества оказываемой медицинской помощи на догоспитальном этапе</span
+                >
+              </h4>
+            </div>
+          </div>
+        </section>
+        <section class="targets container">
+          <div class="col">
+            <h3 class="text-secondary onset-regular">Наши цели</h3>
+          </div>
+          <div class="row mt-4">
+            <div class="row col-lg-6 col-md-12 p-0 m-0">
+              <div class="col-md-6 mb-3">
+                <div class="card card-reasons">
+                  <div class="d-flex align-items-end h-100">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-start">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">01</span>
+
+                      <div class="col d-flex align-items-end">
+                        <p class="card-text fs-20 mt-5" style="margin-bottom: 8px">Снизить число летальных исходов на догоспитальном этапе</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="card card-reasons">
+                  <div class="d-flex align-items-end h-100">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-start">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">02</span>
+
+                      <div class="col d-flex align-items-end">
+                        <p class="card-text fs-20 mt-5" style="margin-bottom: 8px">Уменьшить процент инвалидизации населения</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="card card-reasons">
+                  <div class="d-flex align-items-end h-100">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-start">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">03</span>
+
+                      <div class="col d-flex align-items-end">
+                        <p class="card-text fs-20 mt-5" style="margin-bottom: 8px">Снизить нагрузку государственных больниц и экстренных служб</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="card card-reasons">
+                  <div class="d-flex align-items-end h-100">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-start">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">04</span>
+
+                      <div class="col d-flex align-items-end">
+                        <p class="card-text fs-20 mt-5" style="margin-bottom: 8px">Расширить спектр медицинских направлений в регионе</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <img class="w-100" src="images/mission-img.png" alt="" />
+            </div>
+          </div>
+          <div class="row statistics">
+            <ul class="d-flex justify-content-between statistics__body">
+              <li class="statistics-border">
+                <div class="col statistics-text">
+                  <p class="fs-20 onset-medium text-light p-0 m-0"><span class="fs-64 onset-bold">20</span> врачей</p>
+                  <p class="fs-18 text-light p-0 m-0">в штате</p>
+                </div>
+              </li>
+              <li class="statistics-border">
+                <div class="col statistics-text">
+                  <p class="fs-20 onset-medium text-light p-0 m-0"><span class="fs-64 onset-bold">1 000</span> пациентов</p>
+                  <p class="fs-18 text-light p-0 m-0">в год</p>
+                </div>
+              </li>
+              <li class="statistics-border">
+                <div class="col statistics-text">
+                  <p class="fs-20 onset-medium text-light p-0 m-0"><span class="fs-64 onset-bold">24</span> машины</p>
+                  <p class="fs-18 text-light p-0 m-0 qwe">скорой помощи</p>
+                </div>
+              </li>
+              <li class="statistics-border">
+                <div class="col statistics-text">
+                  <p class="fs-20 onset-medium text-light p-0 m-0"><span class="fs-64 onset-bold">5</span> стационаров</p>
+                  <p class="fs-18 text-light p-0 m-0 qwe">круглосуточных</p>
+                </div>
+              </li>
+              <li class="statistics-border">
+                <div class="col statistics-text">
+                  <p class="fs-20 onset-medium text-light p-0 m-0"><span class="fs-64 onset-bold">15</span> лет</p>
+                  <p class="fs-18 text-light p-0 m-0 qwe">минимальный стаж врача</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="bg-white-top" style="">
+          <section class="swiper swiper-specialist container" style="margin-top: 80px">
+            <h2 class="onset-bold mb-0">
+              Всегда рады <br />
+              <span class="text-primary">хорошим специалистам</span>
+            </h2>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-specilist" style="">
+                <div class="col">
+                  <h2 class="fs-28">Медицинская сестра палатная/медицинский брат палатный</h2>
+                  <span class="bg-danger text-white fs-16 mt-3" style="padding: 4px 12px; border-radius: 100px">39 000 ₽ – 49 000 ₽</span>
+                  <div class="d-flex mt-4 swiper-slide-specilist-column">
+                    <h3 class="col-4 fs-16 text-primary onset-medium">Обязанности</h3>
+                    <ul>
+                      <li class="pb-2 text-primary fs-16">
+                        <span class="text-secondary">Приём и размещение в палате пациентов</span>
+                      </li>
+                      <li class="pb-2 text-primary fs-16 mt-2">
+                        <span class="text-secondary">Проведение диагностических исследований</span>
+                      </li>
+                      <li class="pb-2 text-primary fs-16 mt-2">
+                        <span class="text-secondary"
+                          >Владение манипуляциями и выполнение процедур, разрешённых к выполнению средним медицинским персоналом</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="d-flex mt-4 swiper-slide-specilist-column">
+                    <h3 class="col-4 fs-16 text-primary onset-medium">Требования</h3>
+                    <ul>
+                      <li class="pb-2 text-primary fs-16">
+                        <span class="text-secondary">Среднее профессиональное образование</span>
+                      </li>
+                      <li class="pb-2 text-primary fs-16 mt-2">
+                        <span class="text-secondary">Специальность: Сестринское дело</span>
+                      </li>
+                      <li class="pb-2 text-primary fs-16 mt-2">
+                        <span class="text-secondary"
+                          >Наличие действующего сертификата или аккредитации специалиста по специальности «Сестринское дело»</span
+                        >
+                      </li>
+                      <li class="pb-2 text-primary fs-16 mt-2">
+                        <span class="text-secondary">Наличие медицинской книжки</span>
+                      </li>
+                      
+                    </ul>
+                    
+                  </div>
+                  <div class="col d-flex flex-column justify-content-end w-100 dn-block-mobile">
+                    <button class="btn btn-primary w-100 dn-block-mobile" style="padding: 16px 0">Откликнуться</button>
+                  </div>
+                </div>
+                <div class="col d-flex flex-column justify-content-end w-100 dn-mobile">
+                  <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Откликнуться</button>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-specilist" style="">
+                <div class="col">
+                  <h2 class="fs-28">Врач-офтальмолог</h2>
+                  <span class="bg-danger text-white fs-16 mt-3" style="padding: 4px 12px; border-radius: 100px">з/п не указана</span>
+                  <div class="d-flex mt-5 swiper-slide-specilist-column">
+                    <h3 class="col-4 fs-16 text-primary onset-medium">Обязанности</h3>
+                    <ul>
+                      <li class="pb-2 text-primary fs-16">
+                        <span class="text-secondary">Консультативный прием пациентов</span>
+                      </li>
+                      <li class="pb-2 text-primary fs-16 mt-2">
+                        <span class="text-secondary">Проведение периодических и профессиональных осмотров</span>
+                      </li>
+                      <li class="pb-2 text-primary fs-16 mt-2">
+                        <span class="text-secondary">Ведение медицинской документации</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="d-flex mt-4 swiper-slide-specilist-column">
+                    <h3 class="col-4 fs-16 text-primary onset-medium">Требования</h3>
+                    <ul>
+                      <li class="pb-2 text-primary fs-16">
+                        <span class="text-secondary">Высшее медицинское образование, наличие интернатуры/ординатуры</span>
+                      </li>
+                      <li class="pb-2 text-primary fs-16 mt-2">
+                        <span class="text-secondary">Действующий сертификат/аккредитация по специальности «Офтальмология»</span>
+                      </li>
+                      <li class="pb-2 text-primary fs-16 mt-2">
+                        <span class="text-secondary">Опыт работы от 1 до 3-х лет по специальности</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col d-flex flex-column justify-content-end w-100 dn-block-mobile">
+                    <button class="btn btn-primary w-100 dn-block-mobile" style="padding: 16px 0">Откликнуться</button>
+                  </div>
+                </div>
+                <div class="col d-flex flex-column justify-content-end w-100">
+                  <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Откликнуться</button>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-specilist" style="">
+                <div class="col d-flex flex-column justify-content-end w-100">
+                  <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next dn-mobile"></div>
+            <div class="swiper-button-prev dn-mobile"></div>
+            <div class="swiper-pagination swiper-pagination-nubmer text-primary" style="left: 100px; top: 63px"></div>
+            <div class="swiper-pagination bar" style="left: auto; top: 70px"></div>
+            <div class="swiper-pagination swiper-pagination-dots text-primary dn-block-mobile"></div>
+          </section>
+        </div>
+        <section class="license bg-white">
+          <div class="container">
+            <h2 class="onset-bold">
+              Лицензии на все виды <br />
+              <span class="text-primary">медицинских услуг</span>
+              <div class="row flex-wrap mt-5">
+                <div class="license-cards col-lg-4 col-md-6">
+                  <div class="col license-card justify-content-between d-flex flex-column">
+                    <h3 class="onset-medium">Название лицензии #1</h3>
+                    <div class="col justify-content-between d-flex flex-column">
+                      <div class="col">
+                        <span class="fs-16 onset-regular" style="color: #636a70">Регистрационный номер лицензии</span>
+                        <p class="fs-18 onset-regular mb-0">Л041-01137-77/00524806</p>
+                        <span class="fs-16 onset-regular" style="color: #636a70">Дата предоставления лицензии</span>
+                        <p class="fs-18 onset-regular">29.08.2018</p>
+                      </div>
+                      <div class="col d-flex justify-content-between align-items-end mt-4 h-100">
+                        <div class="d-flex align-items-center">
+                          <img src="images/Upload.svg" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">Скачать pdf</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img src="images/glass.svg" style="margin-right: 4px;" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">посмотреть</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="license-cards col-lg-4 col-md-6">
+                  <div class="col license-card justify-content-between d-flex flex-column">
+                    <h3 class="onset-medium">Название лицензии #2 в две строки</h3>
+                    <div class="col justify-content-between d-flex flex-column">
+                      <div class="col">
+                        <span class="fs-16 onset-regular" style="color: #636a70">Регистрационный номер лицензии</span>
+                        <p class="fs-18 onset-regular mb-0">Л041-01137-77/00524806</p>
+                        <span class="fs-16 onset-regular" style="color: #636a70">Дата предоставления лицензии</span>
+                        <p class="fs-18 onset-regular">29.08.2018</p>
+                      </div>
+                      <div class="col d-flex justify-content-between align-items-end mt-4 h-100">
+                        <div class="d-flex align-items-center">
+                          <img src="images/Upload.svg" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">Скачать pdf</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img src="images/glass.svg" style="margin-right: 4px;" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">посмотреть</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="license-cards col-lg-4 col-md-6">
+                  <div class="col license-card justify-content-between d-flex flex-column">
+                    <h3 class="onset-medium">Название лицензии #3</h3>
+                    <div class="col justify-content-between d-flex flex-column">
+                      <div class="col">
+                        <span class="fs-16 onset-regular" style="color: #636a70">Регистрационный номер лицензии</span>
+                        <p class="fs-18 onset-regular mb-0">Л041-01137-77/00524806</p>
+                        <span class="fs-16 onset-regular" style="color: #636a70">Дата предоставления лицензии</span>
+                        <p class="fs-18 onset-regular">29.08.2018</p>
+                      </div>
+                      <div class="col d-flex justify-content-between align-items-end mt-4 h-100">
+                        <div class="d-flex align-items-center">
+                          <img src="images/Upload.svg" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">Скачать pdf</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img src="images/glass.svg" style="margin-right: 4px;" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">посмотреть</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="license-cards col-lg-4 col-md-6">
+                  <div class="col license-card justify-content-between d-flex flex-column">
+                    <h3 class="onset-medium">Название лицензии #4</h3>
+                    <div class="col justify-content-between d-flex flex-column">
+                      <div class="col">
+                        <span class="fs-16 onset-regular" style="color: #636a70">Регистрационный номер лицензии</span>
+                        <p class="fs-18 onset-regular mb-0">Л041-01137-77/00524806</p>
+                        <span class="fs-16 onset-regular" style="color: #636a70">Дата предоставления лицензии</span>
+                        <p class="fs-18 onset-regular">29.08.2018</p>
+                      </div>
+                      <div class="col d-flex justify-content-between align-items-end mt-4 h-100">
+                        <div class="d-flex align-items-center">
+                          <img src="images/Upload.svg" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">Скачать pdf</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img src="images/glass.svg" style="margin-right: 4px;" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">посмотреть</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="license-cards col-lg-4 col-md-6">
+                  <div class="col license-card justify-content-between d-flex flex-column">
+                    <h3 class="onset-medium">Название лицензии #5</h3>
+                    <div class="col justify-content-between d-flex flex-column">
+                      <div class="col">
+                        <span class="fs-16 onset-regular" style="color: #636a70">Регистрационный номер лицензии</span>
+                        <p class="fs-18 onset-regular mb-0">Л041-01137-77/00524806</p>
+                        <span class="fs-16 onset-regular" style="color: #636a70">Дата предоставления лицензии</span>
+                        <p class="fs-18 onset-regular">29.08.2018</p>
+                      </div>
+                      <div class="col d-flex justify-content-between align-items-end mt-4 h-100">
+                        <div class="d-flex align-items-center">
+                          <img src="images/Upload.svg" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">Скачать pdf</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img src="images/glass.svg" style="margin-right: 4px;" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">посмотреть</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="license-cards col-lg-4 col-md-6">
+                  <div class="col license-card justify-content-between d-flex flex-column">
+                    <h3 class="onset-medium">Название лицензии #6</h3>
+                    <div class="col justify-content-between d-flex flex-column">
+                      <div class="col">
+                        <span class="fs-16 onset-regular" style="color: #636a70">Регистрационный номер лицензии</span>
+                        <p class="fs-18 onset-regular mb-0">Л041-01137-77/00524806</p>
+                        <span class="fs-16 onset-regular" style="color: #636a70">Дата предоставления лицензии</span>
+                        <p class="fs-18 onset-regular">29.08.2018</p>
+                      </div>
+                      <div class="col d-flex justify-content-between align-items-end mt-4 h-100">
+                        <div class="d-flex align-items-center">
+                          <img src="images/Upload.svg" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">Скачать pdf</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <img src="images/glass.svg" style="margin-right: 4px;" alt="#" />
+                          <a href="#" class="onset-medium fs-18 text-primary text-uppercase p-0 m-0">посмотреть</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </h2>
+          </div>
+        </section>
+        <section class="faq bg-white">
+          <div class="container">
+            <h2 class="onset-bold">
+              Оказываем помощь <br />
+              <span class="text-primary">по многим направлениям</span>
+            </h2>
+            <div class="accordion mt-5" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button onset-medium fs-24"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    Сколько стоит вызов скорой помощи?
+                  </button>
+                </h3>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                  <div class="accordion-body fs-18 text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto labore nulla dolores eum minima quisquam at. Accusamus,
+                    sequi incidunt a, numquam odio officiis, hic aperiam fugit ut animi dolore! Rem, quae doloribus cupiditate quisquam, incidunt nemo
+                    delectus facere suscipit quod corrupti sunt impedit ullam omnis quo quibusdam fugit atque distinctio autem quidem dolores? Veniam
+                    cupiditate animi expedita qui perspiciatis!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed onset-medium fs-24"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    Через сколько приедет бригада?
+                  </button>
+                </h3>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                  <div class="accordion-body fs-18 text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto labore nulla dolores eum minima quisquam at. Accusamus,
+                    sequi incidunt a, numquam odio officiis, hic aperiam fugit ut animi dolore! Rem, quae doloribus cupiditate quisquam, incidunt nemo
+                    delectus facere suscipit quod corrupti sunt impedit ullam omnis quo quibusdam fugit atque distinctio autem quidem dolores? Veniam
+                    cupiditate animi expedita qui perspiciatis!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed onset-medium fs-24"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    На скорой приедут врачи или фельдшеры?
+                  </button>
+                </h3>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                  <div class="accordion-body fs-18 text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto labore nulla dolores eum minima quisquam at. Accusamus,
+                    sequi incidunt a, numquam odio officiis, hic aperiam fugit ut animi dolore! Rem, quae doloribus cupiditate quisquam, incidunt nemo
+                    delectus facere suscipit quod corrupti sunt impedit ullam omnis quo quibusdam fugit atque distinctio autem quidem dolores? Veniam
+                    cupiditate animi expedita qui perspiciatis!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed onset-medium fs-24"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFor"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFor"
+                  >
+                    Скорая отвезет в больницу, с которой уже есть договоренность о госпитализации?
+                  </button>
+                </h3>
+                <div id="panelsStayOpen-collapseFor" class="accordion-collapse collapse">
+                  <div class="accordion-body fs-18 text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto labore nulla dolores eum minima quisquam at. Accusamus,
+                    sequi incidunt a, numquam odio officiis, hic aperiam fugit ut animi dolore! Rem, quae doloribus cupiditate quisquam, incidunt nemo
+                    delectus facere suscipit quod corrupti sunt impedit ullam omnis quo quibusdam fugit atque distinctio autem quidem dolores? Veniam
+                    cupiditate animi expedita qui perspiciatis!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed onset-medium fs-24"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFive"
+                  >
+                    Возможно ли договориться о госпитализации в больницу 3-го уровня?
+                  </button>
+                </h3>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                  <div class="accordion-body fs-18" fs-18 text-secondary"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto
+                  labore nulla dolores eum minima quisquam at. Accusamus, sequi incidunt a, numquam odio officiis, hic aperiam fugit ut animi dolore!
+                  Rem, quae doloribus cupiditate quisquam, incidunt nemo delectus facere suscipit quod corrupti sunt impedit ullam omnis quo quibusdam
+                  fugit atque distinctio autem quidem dolores? Veniam cupiditate animi expedita qui perspiciatis!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed onset-medium fs-24"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSix"
+                >
+                  Возможно ли вызвать узкого специалиста на дом?
+                </button>
+              </h3>
+              <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                <div class="accordion-body fs-18 text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto labore nulla dolores eum minima quisquam at. Accusamus, sequi
+                  incidunt a, numquam odio officiis, hic aperiam fugit ut animi dolore! Rem, quae doloribus cupiditate quisquam, incidunt nemo
+                  delectus facere suscipit quod corrupti sunt impedit ullam omnis quo quibusdam fugit atque distinctio autem quidem dolores? Veniam
+                  cupiditate animi expedita qui perspiciatis!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed onset-medium fs-24"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSeventh"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSeventh"
+                >
+                  Возможно ли сделать рентген и УЗИ на дому?
+                </button>
+              </h3>
+              <div id="panelsStayOpen-collapseSeventh" class="accordion-collapse collapse">
+                <div class="accordion-body fs-18 text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto labore nulla dolores eum minima quisquam at. Accusamus, sequi
+                  incidunt a, numquam odio officiis, hic aperiam fugit ut animi dolore! Rem, quae doloribus cupiditate quisquam, incidunt nemo
+                  delectus facere suscipit quod corrupti sunt impedit ullam omnis quo quibusdam fugit atque distinctio autem quidem dolores? Veniam
+                  cupiditate animi expedita qui perspiciatis!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button collapsed onset-medium fs-24"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseEighth"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseEighth"
+                >
+                  Можно ли вывести родственника из запоя?
+                </button>
+              </h3>
+              <div id="panelsStayOpen-collapseEighth" class="accordion-collapse collapse">
+                <div class="accordion-body fs-18 text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iusto labore nulla dolores eum minima quisquam at. Accusamus, sequi
+                  incidunt a, numquam odio officiis, hic aperiam fugit ut animi dolore! Rem, quae doloribus cupiditate quisquam, incidunt nemo
+                  delectus facere suscipit quod corrupti sunt impedit ullam omnis quo quibusdam fugit atque distinctio autem quidem dolores? Veniam
+                  cupiditate animi expedita qui perspiciatis!
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="comments col bg-white">
+          <div class="container">
+            <h2 class="onset-bold"><span class="text-primary">Заслуженное доверие</span> пациентов</h2>
+            <ul class="products-grid row p-0 mt-5">
+              <li class="comments-grid__item col-lg-4 col-md-6 col-sm-12">
+                <div class="col mt-3">
+                  <img src="images/comment-1.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-2.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-3.png" alt="" />
+                </div>
+              </li>
+              <li class="comments-grid__item col-lg-4 col-md-6 col-sm-12">
+                <div class="col mt-3">
+                  <img src="images/comment-4.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-5.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-8.png" alt="" />
+                </div>
+              </li>
+              <li class="comments-grid__item col-lg-4 col-md-6 col-sm-12">
+                <div class="col mt-3">
+                  <img src="images/comment-6.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-7.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-9.png" alt="" />
+                </div>
+              </li>
+              <li class="comments-grid__item col-lg-4 col-md-6 col-sm-12">
+                <div class="col mt-3">
+                  <img src="images/comment-1.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-2.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-3.png" alt="" />
+                </div>
+              </li>
+              <li class="comments-grid__item col-lg-4 col-md-6 col-sm-12">
+                <div class="col mt-3">
+                  <img src="images/comment-4.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-5.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-8.png" alt="" />
+                </div>
+              </li>
+              <li class="comments-grid__item col-lg-4 col-md-6 col-sm-12">
+                <div class="col mt-3">
+                  <img src="images/comment-6.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-7.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-9.png" alt="" />
+                </div>
+              </li>
+              <li class="comments-grid__item col-lg-4 col-md-6 col-sm-12">
+                <div class="col mt-3">
+                  <img src="images/comment-1.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-2.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-3.png" alt="" />
+                </div>
+              </li>
+              <li class="comments-grid__item col-lg-4 col-md-6 col-sm-12">
+                <div class="col mt-3">
+                  <img src="images/comment-4.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-5.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-8.png" alt="" />
+                </div>
+              </li>
+              <li class="comments-grid__item col-lg-4 col-md-6 col-sm-12">
+                <div class="col mt-3">
+                  <img src="images/comment-6.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-7.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <img src="images/comment-9.png" alt="" />
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="btn-center text-center bg-white">
+            <button
+              class="show-more text-primary text-uppercase fs-18 onset-medium mt-4 d-flex align-items-center justify-content-center dn-block-mobile"
+            >
+              Показать еще <img src="images/show-more.svg" alt="" />
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="row position-relative">
+            <div class="col-md-2 border-bottom-footer">
+              <img src="images/logo-footer.svg" alt="#" />
+              <p class="mt-5">283003, ДНР, г. Донецк, ул. Калужская, д.16а</p>
+              <p>
+                ИНН: 9303038031 <br />
+                ОГРН: 1249300013082
+              </p>
+            </div>
+            <div class="col-md-7 d-flex flex-column justify-content-between">
+              <ul class="navbar-nav footer-nav d-flex flex-md-row justify-content-between border-bottom-footer">
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">О клинике</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">Услуги</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">Врачи</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">Новости и статьи</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">Контакты и реквизиты</a>
+                </li>
+              </ul>
+              <ul class="d-flex justify-content-between dn-mobile">
+                <li class="text-body-tertiary">©2024 «Диомед»</li>
+                <li>
+                  <a href="#" class="text-decoration-none text-body-tertiary">Политика конфиденциальности</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-body-tertiary">Пользовательское соглашение</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 align-items-md-end d-flex flex-column">
+              <h3 class="text-primary onset-medium fs-20">Наши контакты</h3>
+              <div class="d-flex flex-column align-items-md-end border-bottom-footer footer-contacts">
+                <a href="mailto:nachmed@diomed.clinic" class="navbar-text onset-medium text-decoration-none p-0">
+                  <img class="phone-icon" src="images/mail.svg" alt="" />nachmed@diomed.clinic
+                </a>
+                <a href="tel:+78563032303" class="navbar-text onset-medium text-decoration-none p-0">
+                  <img class="phone-icon" src="images/phone-icon.svg" alt="" />+7 (856) 303-23-03
+                </a>
+                <a href="tel:+79490999303" class="navbar-text onset-medium text-decoration-none p-0"> +7 (949) 099-93-03 </a>
+                <span class="text-body-tertiary fs-12">Круглосуточная запись</span>
+              </div>
+              <a class="button-top text-uppercase onset-medium fs-16 dn-mobile" href="/">НАЗАД <img src="images/top.svg" alt="" /></a>
+            </div>
+            <ul class="d-flex justify-content-between dn-block-mobile" style="margin-top: 20px">
+              <li class="text-body-tertiary mb-3">©2024 «Диомед»</li>
+              <li class="mb-3">
+                <a href="#" class="text-decoration-none text-body-tertiary">Политика конфиденциальности</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-body-tertiary">Пользовательское соглашение</a>
+              </li>
+            </ul>
+            <a class="button-top text-uppercase onset-medium fs-16 dn-block-mobile text-end" href="/">НАЗАД <img src="images/top.svg" alt="" /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="libs/jquery.maskedinput-master/dist/jquery.maskedinput.min.js"></script>
+  <script src="libs/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="libs/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const commentsShowMore = document.querySelector(".show-more");
+    const commentsLength = document.querySelectorAll(".comments-grid__item").length;
+    let commentsItems = 1;
+
+    commentsShowMore.addEventListener("click", () => {
+      commentsItems += 1;
+      const array = Array.from(document.querySelector(".products-grid").children);
+      const visItems = array.slice(0, commentsItems);
+
+      visItems.forEach((el) => el.classList.add("is-visible"));
+
+      if (visItems.length === commentsLength) {
+        commentsShowMore.style.display = "none";
+      }
+    });
+  </script>
+  <script src="js/common.js"></script>
+</html>

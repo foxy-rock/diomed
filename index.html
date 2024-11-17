@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="libs/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Диомед | Оперативная помощь с заботой о здоровье</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="navbar fixed-top navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand col" href="/index.html"><img src="images/logo.svg" alt="" /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Переключатель навигации"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-lg-row justify-content-between" id="navbarText">
+              <ul class="navbar-nav mb-lg-0">
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/about.html">О клинике</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/services.html">Услуги</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/specialists.html">Врачи</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/news.html">Новости и статьи</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="/contacts.html">Контакты и реквизиты</a>
+                </li>
+              </ul>
+              <div class="d-flex align-items-center col justify-content-end phone-header-mobile">
+                <div class="d-flex flex-column align-items-end">
+                  <a href="tel:+78563032303" class="navbar-text onset-medium text-decoration-none p-0"  style="color: #252525 !important;">
+                    <img class="phone-icon" src="images/phone-icon.svg" alt="" />+7 (856) 303-23-03
+                  </a>
+                  <a href="tel:+79490999303" class=" navbar-text onset-medium text-decoration-none p-0 number-mobile">+7 (949) 099-93-03</a>
+                  <span class="onset-medium" style="color: #252525 !important;" >603</span>
+                  <span class="text-body-tertiary fs-12">Круглосуточная запись</span>
+                </div>
+                <a class="btn btn-outline-primary lk" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+                  ><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10.858 12V14.2857C10.858 14.5888 10.7376 14.8795 10.5232 15.0938C10.3089 15.3081 10.0182 15.4286 9.71512 15.4286H1.71512C1.41202 15.4286 1.12133 15.3081 0.907001 15.0938C0.692673 14.8795 0.572266 14.5888 0.572266 14.2857V1.71427C0.572266 1.41116 0.692673 1.12047 0.907001 0.906146C1.12133 0.691819 1.41202 0.571411 1.71512 0.571411H9.71512C10.0182 0.571411 10.3089 0.691819 10.5232 0.906146C10.7376 1.12047 10.858 1.41116 10.858 1.71427V3.99998"
+                      stroke="#006ADC"
+                      stroke-width="1.14286"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                    <path d="M15.428 8H6.28516" stroke="#006ADC" stroke-width="1.14286" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path
+                      d="M8.57087 5.71423L6.28516 7.99995L8.57087 10.2857"
+                      stroke="#006ADC"
+                      stroke-width="1.14286"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  Личный кабинет</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title onset-bold" id="exampleModalLabel">Регистрация</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-14 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="ФИО" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control input-phone" id="recipient-name" placeholder="Телефон" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="E-mail" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"
+                      ><img src="images/visible.svg" alt=""
+                    /></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Пароль" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"
+                      ><img src="images/visible.svg" alt=""
+                    /></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Повторите пароль" />
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <a class="text-decoration-none text-dark fs-14" data-bs-toggle="modal" data-bs-target="#exampleModalin" href="#"
+                    >У вас уже есть аккаунт? <span class="text-primary">Войти</span></a
+                  >
+
+                  <button type="button" class="btn btn-primary btn-form mt-40">Зарегистрироваться</button>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label fs-12" for="flexCheckDefault">
+                      Я принимаю условия
+                      <span class="text-primary">Политики конфиденциальности,</span>
+                      и даю согласие на обработку
+                      <span class="text-primary">персональных данных</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalin" tabindex="-1" aria-labelledby="exampleModalLabelin" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title onset-bold" id="exampleModalLabel">Войти</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="E-mail или пароль" />
+                  </div>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="Пароль" />
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <a class="text-decoration-none text-dark fs-14" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+                    >У вас нет аккаунта <span class="text-primary">Зарегистрируйтесь</span></a
+                  >
+                  <a class="text-decoration-none text-dark fs-14" data-bs-toggle="modal" data-bs-target="#exampleModalrepair" href="#"
+                    >Забыли пароль? <span class="text-primary">Восстановите</span></a
+                  >
+
+                  <div class="form-check mt-40">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label fs-12" for="flexCheckDefault"> Запомнить меня </label>
+                  </div>
+                  <button type="button" class="btn btn-primary btn-form">Войти</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalrepair" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title onset-bold" id="exampleModalLabel">Восстановление пароля</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3 position-relative">
+                    <label for="recipient-name" class="col-form-label position-absolute fs-12 text-body-tertiary"></label>
+                    <input type="text" class="form-control" id="recipient-name" placeholder="E-mail или пароль" />
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <a class="text-decoration-none text-dark fs-14" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"
+                    >Назад к <span class="text-primary">авторизации</span></a
+                  >
+
+                  <button type="button" class="btn btn-primary btn-form">Сбросить пароль</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalFeddback" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title onset-bold" id="exampleModalLabel">Здравствуйте!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+
+              <div class="modal-body">
+                <h2 class="fs-14 text-secondary onset-regular">Нам нужно совсем немного информации и мы обязательно свяжемся с вами</h2>
+                <form>
+                  <div class="mb-3 position-relative">
+                    <input type="text" class="form-control mt-3" id="recipient-name" placeholder="ФИО" />
+                    <input type="text" class="form-control input-phone mt-3" id="recipient-phone" placeholder="Телефон" />
+                    <input type="text" class="form-control mt-3" id="recipient-mail" placeholder="E-mail" />
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <button type="button" class="btn btn-primary btn-form" data-bs-toggle="modal" data-bs-target="#exampleModalFeddbackDone">
+                    Отправить
+                  </button>
+                  <div class="form-check mt-40">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label fs-12" for="flexCheckDefault"
+                      >Я принимаю условия <a href="#">Политики конфиденциальности,</a> и даю согласие на обработку
+                      <a href="#"> персональных данных</a></label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModalFeddbackDone" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img src="images/done.svg" alt="" />
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3 position-relative">
+                    <h1 class="onset-bold">Спасибо!</h1>
+                    <p class="text-secondary fs-16">Скоро наш менеджер позвонит вам или пришлет письмо на электронную почту</p>
+                  </div>
+                </form>
+                <div class="modal-footer row">
+                  <button type="button" class="btn btn-primary btn-form">Отправить</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="assistance d-flex align-items-center container">
+          <div class="col-lg-7 col-sm-12">
+            <div class="col">
+              <span class="btn border-radius-100 btn-danger onset-medium"
+                ><img src="images/phone-categories.svg" style="margin-right: 8px" alt="#" />Круглосуточная скорая</span
+              >
+              <span
+                class="btn border-radius-100 btn-danger onset-medium dn-mobile"
+                style="background-color: rgba(225, 83, 97, 0.2); color: rgb(225, 83, 97); border: rgb(225, 83, 97)"
+                ><img src="images/specialist-categories.svg" style="margin-right: 8px" alt="#" />Узкопрофильные специалисты</span
+              >
+              <span
+                class="btn border-radius-100 btn-danger onset-medium dn-mobile"
+                style="background-color: rgba(225, 83, 97, 0.2); color: rgb(225, 83, 97); border: rgb(225, 83, 97)"
+                ><img src="images/auto-categories.svg" style="margin-right: 8px" alt="#" />Быстрая госпитализация</span
+              >
+            </div>
+            <h1
+              class="onset-bold fs-84 pt-3"
+              style="font-size: clamp(2.25rem, 0.0383rem + 9.0737vw, 5.25rem); line-height: clamp(2.475rem, 0.4292rem + 8.3932vw, 5.25rem)"
+            >
+              <span class="text-primary">Оперативная помощь</span> с заботой о здоровье
+            </h1>
+            <p class="fs-18 w-75 pt-3">
+              Выше качество, ниже цена, возможность быстрой госпитализации в профильное отделение, где пациента будут реально лечить
+            </p>
+            <div class="col pt-5">
+              <button
+                class="btn btn-primary sign"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModalFeddback"
+                style="padding: 14px 32px; border-radius: 8px"
+              >
+                Записаться на прием
+              </button>
+              <a href="#" class="text-decoration-none text-uppercase onset-medium p-3 dn-mobile"
+                ><img src="images/Invoice.svg" alt="" />Посмотреть услуги</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <img class="main-img" src="images/main.png" alt="" />
+          </div>
+        </section>
+        <section class="run mt-5">
+          <div class="run__items">
+            <div class="run__item marquee">
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Минимизируем риски для жизни и здоровья</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Госпитализируем в профильное отделение</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+            </div>
+            <div class="run__item marquee">
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Минимизируем риски для жизни и здоровья</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Госпитализируем в профильное отделение</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="search container">
+          <h2 class="text-center onset-bold">Поиск по сайту</h2>
+          <form class="d-flex position-relative mt-5">
+            <label class="search-label position-absolute" style="left: 20px; bottom: 14px">
+              <img src="images/search.svg" alt="" />
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              style="padding-left: 46px !important"
+              placeholder="Например: Запись на прием"
+              aria-label="Имя пользователя получателя"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-primary position-absolute dn-mobile"
+              style="right: 6px; bottom: 6px; padding-right: 20px; padding-left: 20px"
+              type="button"
+              id="button-addon2"
+            >
+              Найти
+            </button>
+          </form>
+          <div class="d-flex flex-wrap justify-content-center mt-5">
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Личный кабинет</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Семенов Петр Геннадьевич</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Адрес клиники</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Оплатить</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Госпитализация</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Невролог</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Оборудование</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Медицинские услуги</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Реквизиты</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Выезд специалиста</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Новости</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Статьи</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Хирургическое отделение</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fs-14"
+              style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+              >Ответы на вопросы</a
+            >
+          </div>
+          <button
+            class="btn btn-primary dn-block-mobile"
+            style="padding: 10px 0; padding-right: 20px; padding-left: 20px; width: 100%; margin: 20px 0"
+            type="button"
+            id="button-addon2"
+          >
+            Найти
+          </button>
+        </section>
+        <section class="direction bg-white pt-100" style="margin-top: 100px">
+          <div class="container">
+            <h2 class="onset-bold">
+              Оказываем помощь <br />
+              <span class="text-primary">по многим направлениям</span>
+            </h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+              <div class="col-lg-6 col-md-12">
+                <div class="card card-direction overflow-hidden">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">01</span>
+                      <h3 class="card-title" style="margin-bottom: 20px; margin-top: 24px">Скорая медицинская помощь</h3>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Выезд, осмотр и консультация врачебной бригады</p>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Оказание необходимой помощи</p>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">При необходимости транспортировка до больницы</p>
+                      </div>
+                      <img src="images/card-direction-1.png" class="direction-img dn-block-mobile" alt="..." />
+                      <div class="col mt-3 d-flex align-items-center justify-content-between card-direction-bottom">
+                        <span class="text-primary fs-28">от 5 000 ₽</span>
+                        <a href="#" class="text-uppercase onset-medium text-decoration-none"
+                          >Подробнее <img src="images/card-direction-icon.png" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <img src="images/card-direction-1.png" class="direction-img" alt="..." />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card card-direction overflow-hidden">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">02</span>
+                      <h3 class="card-title" style="margin-bottom: 20px; margin-top: 24px">Медицинская эвакуация</h3>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">
+                          Оперативная транспортировка пациентов до медицинского учреждения
+                        </p>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Оказание необходимой помощи в пути</p>
+                      </div>
+                      <img src="images/card-direction-2.png" class="direction-img dn-block-mobile" alt="..." />
+                      <div class="col mt-3 d-flex align-items-center justify-content-between card-direction-bottom">
+                        <span class="text-primary fs-28">4 500 ₽</span>
+                        <a href="#" class="text-uppercase onset-medium text-decoration-none"
+                          >Подробнее <img src="images/card-direction-icon.png" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <img src="images/card-direction-2.png" class="direction-img" alt="..." />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card card-direction overflow-hidden">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">03</span>
+                      <h3 class="card-title" style="margin-bottom: 20px; margin-top: 24px">Выезд узкого специалиста на дом</h3>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Консультация врача в комфортных домашних условиях</p>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Постановка диагноза</p>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Консультация врача в комфортных домашних условиях</p>
+                      </div>
+                      <img src="images/card-direction-3.png" class="direction-img dn-block-mobile" alt="..." />
+                      <div class="col mt-3 d-flex align-items-center justify-content-between card-direction-bottom">
+                        <span class="text-primary fs-28">от 3 200 ₽</span>
+                        <a href="#" class="text-uppercase onset-medium text-decoration-none"
+                          >Подробнее <img src="images/card-direction-icon.png" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <img src="images/card-direction-3.png" class="direction-img" alt="..." />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card card-direction overflow-hidden">
+                  <div class="d-flex align-items-end justify-content-between">
+                    <div class="card-body">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">04</span>
+                      <h3 class="card-title" style="margin-bottom: 20px; margin-top: 24px">Дежурство на мероприятиях</h3>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Медицинское сопровождение бригады неотложной медпомощи</p>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">
+                          Специализированный транспорт, оснащенный мед. аппаратурой и набором лекарственных средств
+                        </p>
+                      </div>
+                      <img src="images/card-direction-4.png" class="direction-img dn-block-mobile" alt="..." />
+                      <div class="col mt-3 d-flex align-items-center justify-content-between card-direction-bottom">
+                        <span class="text-primary fs-28">от 2 500 ₽</span>
+                        <a href="#" class="text-uppercase onset-medium text-decoration-none"
+                          >Подробнее <img src="images/card-direction-icon.png" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <img src="images/card-direction-4.png" class="direction-img" alt="..." />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card card-direction overflow-hidden">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">05</span>
+                      <h3 class="card-title" style="margin-bottom: 20px; margin-top: 24px">Вывод из запоя</h3>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Оказание срочной анонимной помощи</p>
+                      </div>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Реабилитация на дому или с помещением в стационар</p>
+                      </div>
+                      <img src="images/card-direction-5.png" class="direction-img dn-block-mobile" alt="..." />
+                      <div class="col mt-3 d-flex align-items-center justify-content-between card-direction-bottom">
+                        <span class="text-primary fs-28">от 7 500 ₽</span>
+                        <a href="#" class="text-uppercase onset-medium text-decoration-none"
+                          >Подробнее <img src="images/card-direction-icon.png" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <img src="images/card-direction-5.png" class="direction-img" alt="..." />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card card-direction overflow-hidden">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <span class="bg-danger text-white" style="padding: 4px 20px; border-radius: 100px">06</span>
+                      <h3 class="card-title" style="margin-bottom: 20px; margin-top: 24px">Медосмотры водителей</h3>
+                      <div class="col d-flex align-items-start">
+                        <img src="images/chek-mark.png" alt="#" />
+                        <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">
+                          Предрейсовые и послерейсовые осмотры проводятся врачом, имеющим специальное удостоверение и прошедшим необходимое обучение
+                        </p>
+                      </div>
+                      <img src="images/card-direction-6.png" class="direction-img dn-block-mobile" alt="..." />
+                      <div class="col mt-3 d-flex align-items-center justify-content-between card-direction-bottom">
+                        <span class="text-primary fs-28">от 3 200 ₽</span>
+                        <a href="#" class="text-uppercase onset-medium text-decoration-none"
+                          >Подробнее <img src="images/card-direction-icon.png" alt=""
+                        /></a>
+                      </div>
+                    </div>
+                    <img src="images/card-direction-6.png" class="direction-img" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col text-end mt-5">
+              <a href="#" class="btn btn-outline-primary">Посмотреть все услуги</a>
+            </div>
+          </div>
+        </section>
+        <section class="check-up bg-white">
+          <div class="container">
+            <div class="col row align-items-start bg-primary position-relative check-up-body" style="border-radius: 20px">
+              <div class="col-lg-8 col-sm-12">
+                <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">с 01 сентября по 10 октября</span>
+                <h2 class="onset-bold text-white mt-2">Комплексный чек-ап для мужчин 40+</h2>
+                <div class="col d-flex align-items-start mt-4">
+                  <img src="images/chek-mark-white.svg" alt="#" />
+                  <p class="card-text text-white" style="margin-bottom: 8px; padding-left: 8px">10 специалистов и 7 лабораторных исследований</p>
+                </div>
+                <div class="col d-flex align-items-start">
+                  <img src="images/chek-mark-white.svg" alt="#" />
+                  <p class="card-text text-white" style="margin-bottom: 8px; padding-left: 8px">Консультация по результатам анализов в подарок</p>
+                </div>
+                <div class="row mt-4 align-items-center">
+                  <div class="col d-flex align-items-end" style="max-width: 363px">
+                    <div class="col">
+                      <p class="fs-16 text-white">Новая цена</p>
+                      <p class="fs-28 onset-medium text-white">29 000 ₽</p>
+                    </div>
+                    <div class="col">
+                      <p class="fs-20" style="color: #a3afd8">
+                        <strike>45 000 ₽</strike>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <button class="btn btn-outline-light check-up-btn" style="padding: 16px 32px">Воспользоваться</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 overflow-hidden">
+                <img src="images/chek-up-img.png" class="check-up-img" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="comfort bg-white">
+          <div class="container">
+            <h2 class="onset-bold">
+              Комфорт пациентов <br />
+              <span class="text-primary">превыше всего</span>
+            </h2>
+            <p class="text-secondary fs-18 mt-4">
+              Выстроили процесс так, чтобы получить <br />
+              оперативную помощь было максимально просто
+            </p>
+            <div class="row mt-5">
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <div class="col comfort-card overflow-hidden">
+                  <span class="bg-danger text-white comfort-card-span" style="padding: 4px 20px; border-radius: 100px">01</span>
+                  <h3 class="confort-card-title onset-medium fs-28 mt-2">Просто <span>обратиться</span></h3>
+                  <p class="text-secondary fs-16">Нужно только позвонить в круглосуточную службу</p>
+                  <img class="d-block m-auto mt-4" src="./images/comfort-card-1.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <div class="col comfort-card overflow-hidden">
+                  <span class="bg-danger text-white comfort-card-span" style="padding: 4px 20px; border-radius: 100px">02</span>
+                  <h3 class="confort-card-title onset-medium fs-28 mt-2">Просто <span>выбрать специалиста</span></h3>
+                  <p class="text-secondary fs-16">Вся информация о врачах есть на сайте</p>
+                  <img class="d-block m-auto mt-4" src="./images/comfort-card-2.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <div class="col comfort-card overflow-hidden">
+                  <span class="bg-danger text-white comfort-card-span" style="padding: 4px 20px; border-radius: 100px">03</span>
+                  <h3 class="confort-card-title onset-medium fs-28 mt-2">Просто <span>записаться на прием</span></h3>
+                  <p class="text-secondary fs-16">Быстрая онлайн-запись с моментальным подтверждением</p>
+                  <img class="d-block m-auto mt-4" src="./images/comfort-card-3.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 mb-3">
+                <div class="comfort-card overflow-hidden">
+                  <div class="d-flex align-items-start">
+                    <div class="col">
+                      <span class="bg-danger text-white comfort-card-span" style="padding: 4px 20px; border-radius: 100px">04</span>
+                      <h3 class="confort-card-title onset-medium fs-28 mt-2">Просто <span>вспомнить назначения</span></h3>
+                      <p class="text-secondary fs-16">Вся история лечения хранится в личном кабинете</p>
+                      <img class="d-block m-auto mt-4" src="./images/comfort-card-4.png" alt="" />
+                    </div>
+                    <img src="/images/comfort-card-4-1.png" style="margin-left: 20px" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-sm-12 mb-3">
+                <div class="col comfort-card overflow-hidden">
+                  <span class="bg-danger text-white comfort-card-span" style="padding: 4px 20px; border-radius: 100px">05</span>
+                  <h3 class="confort-card-title onset-medium fs-28 mt-2">Просто <span>проконсультироваться</span></h3>
+                  <p class="text-secondary fs-16">Всегда остаемся на связи, чтобы ответить на дополнительные вопросы</p>
+                  <img class="d-block m-auto mt-4" src="./images/comfort-card-5.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="run">
+          <div class="run__items">
+            <div class="run__item marquee">
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Минимизируем риски для жизни и здоровья</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Госпитализируем в профильное отделение</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+            </div>
+            <div class="run__item marquee">
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Минимизируем риски для жизни и здоровья</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Госпитализируем в профильное отделение</p>
+              </a>
+              <a href="#">
+                <img src="images/star.svg" alt="" />
+              </a>
+              <a href="#">
+                <p>Укомплектованы оборудованием и лекарствами</p>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="swiper mySwiper container" style="margin-top: 80px">
+          <h2 class="onset-bold mb-0">
+            Ваше здоровье <br />
+            <span class="text-primary">в надежных руках</span>
+          </h2>
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-1.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Иванов Сергей <br />
+                  Александрович
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Невролог</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 15 лет</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-2.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Крючкова Светлана
+                  <br />
+                  Валентиновна
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Отоларинголог</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 23 года</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-3.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Сакуров Константин
+                  <br />
+                  Федорович
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Хирург</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 17 лет</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-1.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Иванов Сергей <br />
+                  Александрович
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Невролог</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 15 лет</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-2.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Крючкова Светлана
+                  <br />
+                  Валентиновна
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Отоларинголог</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 23 года</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-3.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Сакуров Константин
+                  <br />
+                  Федорович
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Хирург</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 17 лет</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-1.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Иванов Сергей <br />
+                  Александрович
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Невролог</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 15 лет</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-2.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Крючкова Светлана
+                  <br />
+                  Валентиновна
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Отоларинголог</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 23 года</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-3.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Сакуров Константин
+                  <br />
+                  Федорович
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Хирург</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 17 лет</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-1.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Иванов Сергей <br />
+                  Александрович
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Невролог</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 15 лет</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-2.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Крючкова Светлана
+                  <br />
+                  Валентиновна
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Отоларинголог</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 23 года</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+            <div
+              class="swiper-slide swiper-slide-doctor"
+              style="background-image: url(./images/slider-doctor-3.png); background-repeat: no-repeat; background-position: bottom"
+            >
+              <div class="col">
+                <h3 class="fs-28 onset-medium">
+                  Сакуров Константин
+                  <br />
+                  Федорович
+                </h3>
+                <p class="card-text" style="margin-bottom: 8px">Хирург</p>
+                <span class="bg-danger text-white fs-16" style="padding: 4px 12px; border-radius: 100px">Стаж 17 лет</span>
+              </div>
+              <div class="col d-flex flex-column justify-content-end w-100">
+                <button class="btn btn-primary w-100 dn-mobile" style="padding: 16px 0">Записаться на прием</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next dn-mobile"></div>
+          <div class="swiper-button-prev dn-mobile"></div>
+          <a href="#" class="btn btn-outline-primary reception">Записаться на прием</a>
+          <div class="swiper-pagination swiper-pagination-nubmer text-primary" style="left: 100px; top: 63px"></div>
+          <div class="swiper-pagination bar" style="left: auto; top: 70px"></div>
+          <div class="swiper-pagination swiper-pagination-dots text-primary"></div>
+        </section>
+        <section class="swiper-slider-equipment bg-white">
+          <div class="swiper slider-equipment pt-100 container" style="margin-top: 80px">
+            <h2 class="onset-bold mb-0">
+              Современное оборудование – <br />
+              <span class="text-primary">основа точной диагностики</span>
+            </h2>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-equipment m-0">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">МРТ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Самый новый аппарат в городе</span>
+                  <img class="mt-5" src="images/slider-equipment-1.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ всего тела за 1,5 часа</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МР маммография</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ суставов</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0" style="margin-right: 10px">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">Аппарат УЗИ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Для проведения УЗИ на дому</span>
+                  <img class="mt-5" src="images/slider-equipment-2.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">3D и 4D режимы</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Высокий уровень визуализации</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">УЗИ глаза</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">КТ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Самый новый аппарат в городе</span>
+                  <img class="mt-5" src="images/slider-equipment-3.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">3D и 4D запись исследования</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Виртуальная колоноскопия</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МСКТ коронарного кальция</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">МРТ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Самый новый аппарат в городе</span>
+                  <img class="mt-5" src="images/slider-equipment-1.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ всего тела за 1,5 часа</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МР маммография</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ суставов</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">МРТ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Самый новый аппарат в городе</span>
+                  <img class="mt-5" src="images/slider-equipment-1.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ всего тела за 1,5 часа</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МР маммография</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ суставов</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0" style="margin-right: 10px">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">Аппарат УЗИ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Для проведения УЗИ на дому</span>
+                  <img class="mt-5" src="images/slider-equipment-2.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">3D и 4D режимы</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Высокий уровень визуализации</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">УЗИ глаза</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">КТ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Самый новый аппарат в городе</span>
+                  <img class="mt-5" src="images/slider-equipment-3.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">3D и 4D запись исследования</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Виртуальная колоноскопия</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МСКТ коронарного кальция</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">МРТ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Самый новый аппарат в городе</span>
+                  <img class="mt-5" src="images/slider-equipment-1.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ всего тела за 1,5 часа</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МР маммография</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ суставов</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">МРТ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Самый новый аппарат в городе</span>
+                  <img class="mt-5" src="images/slider-equipment-1.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ всего тела за 1,5 часа</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МР маммография</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ суставов</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0" style="margin-right: 10px">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">Аппарат УЗИ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Для проведения УЗИ на дому</span>
+                  <img class="mt-5" src="images/slider-equipment-2.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">3D и 4D режимы</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Высокий уровень визуализации</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">УЗИ глаза</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">КТ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Самый новый аппарат в городе</span>
+                  <img class="mt-5" src="images/slider-equipment-3.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">3D и 4D запись исследования</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">Виртуальная колоноскопия</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МСКТ коронарного кальция</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-equipment m-0">
+                <div class="col">
+                  <h3 class="fs-28 onset-medium">МРТ</h3>
+                  <span class="text-white fs-16 categories-green" style="padding: 4px 12px; border-radius: 100px">Самый новый аппарат в городе</span>
+                  <img class="mt-5" src="images/slider-equipment-1.png" alt="" />
+                </div>
+                <div class="col mt-3">
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ всего тела за 1,5 часа</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МР маммография</p>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <img src="images/chek-mark.png" alt="#" />
+                    <p class="card-text" style="margin-bottom: 8px; padding-left: 8px">МРТ суставов</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next dn-mobile"></div>
+            <div class="swiper-button-prev dn-mobile"></div>
+            <div class="swiper-pagination text-primary dn-mobile" style="left: 100px; top: 63px"></div>
+            <div class="swiper-pagination bar dn-mobile" style="left: auto; top: 70px"></div>
+          </div>
+        </section>
+        <section class="reasons bg-white">
+          <div class="container">
+            <div class="col">
+              <h2 class="onset-bold mb-0">
+                5 причин
+                <span class="text-primary">обратиться в «Диомед»</span>
+              </h2>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+              <div class="col">
+                <div class="card card-reasons">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <img src="images/card-resones-icon-1.svg" alt="" />
+                      <h3 class="card-title fs-28 onset-medium" style="margin-bottom: 16px; margin-top: 24px">Низкие цены</h3>
+                      <div class="col d-flex align-items-start">
+                        <p class="card-text" style="margin-bottom: 8px">Одно из самых выгодных предложений в регионе</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-reasons">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <img src="images/card-resones-icon-2.png" alt="" />
+                      <h3 class="card-title fs-28 onset-medium" style="margin-bottom: 16px; margin-top: 24px">Личный кабинет пациента</h3>
+                      <div class="col d-flex align-items-start">
+                        <p class="card-text" style="margin-bottom: 8px">
+                          Удобная онлайн-запись и хранение истории приемов и назначений в одном месте
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-reasons">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <img src="images/card-resones-icon-3.png" alt="" />
+                      <h3 class="card-title fs-28 onset-medium" style="margin-bottom: 16px; margin-top: 24px">Организация консилиумов</h3>
+                      <div class="col d-flex align-items-start">
+                        <p class="card-text" style="margin-bottom: 8px">
+                          Совместная работа специалистов из ведущих клиник для постановки точного диагноза
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-reasons">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <img src="images/card-resones-icon-4.png" alt="" />
+                      <h3 class="card-title fs-28 onset-medium" style="margin-bottom: 16px; margin-top: 24px">Повышение квалификации</h3>
+                      <div class="col d-flex align-items-start">
+                        <p class="card-text" style="margin-bottom: 8px">
+                          Отслеживание инноваций в медицине и непрерывное обучение врачей современным методикам лечение
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-reasons">
+                  <div class="d-flex align-items-end">
+                    <div class="card-body">
+                      <img src="images/card-resones-icon-5.png" alt="" />
+                      <h3 class="card-title fs-28 onset-medium" style="margin-bottom: 16px; margin-top: 24px">Диагностика на дому</h3>
+                      <div class="col d-flex align-items-start">
+                        <p class="card-text" style="margin-bottom: 8px">
+                          Проведение УЗИ и рентгена с помощью портативным аппаратов без потери качества результатов
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-reasons d-flex flex-column align-items-center justify-content-center bg-mobile-none bg-mobile bg-mobile-none">
+                  <div class="reasons-btn d-flex align-items-end">
+                    <div class="card-body">
+                      <button class="btn btn-outline-primary bg-white text-primary onset-medium">Обратиться в «Диомед»</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news-main bg-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8">
+                <h2 class="onset-bold">
+                  Учимся новому <br />
+                  <span class="text-primary">и внедряем современные подходы</span>
+                </h2>
+              </div>
+              <div class="col-lg-4 d-flex align-items-end justify-content-end">
+                <a
+                  href="#"
+                  class="text-decoration-none fs-14"
+                  style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+                  >Все</a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none fs-14"
+                  style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+                  >Новости</a
+                >
+                <a
+                  href="#"
+                  class="text-decoration-none fs-14"
+                  style="background: rgba(0, 106, 220, 0.12); border-radius: 100px; padding: 6px 12px; margin: 4px"
+                  >Статьи</a
+                >
+              </div>
+            </div>
+            <div class="card-group mt-5">
+              <div class="card card-news m-2 position-relative" style="border-top-left-radius: 20px; border-top-right-radius: 20px">
+                <span class="categories-news categories-green position-absolute">#Новости</span>
+                <img class="card-img-top" src="images/education-card-1.png" alt="Card image cap" />
+                <div class="card-body mt-4">
+                  <span class="fs-14 text-secondary">11.06.2024 • <a href="#" class="text-decoration-none">Читать ~7 минут</a></span>
+                  <h5 class="card-title onset-medium fs-28 mt-3">Главное событие лета: День донора в «Диомед»</h5>
+                  <p class="card-text fs-18 text-secondary">
+                    Ежедневно в больницах и медицинских центрах требуются большие объёмы крови. Её используют не только в случае масштабных трагедий,
+                    аварий и техно...
+                  </p>
+                </div>
+              </div>
+              <div class="card card-news m-2 position-relative" style="border-top-left-radius: 20px; border-top-right-radius: 20px">
+                <span class="categories-news categories-red position-absolute">#Новости</span>
+                <img class="card-img-top" src="images/education-card-2.png" alt="Card image cap" />
+                <div class="card-body mt-4">
+                  <span class="fs-14 text-secondary">23.07.2024 • <a href="#" class="text-decoration-none">Читать ~2 минуты</a></span>
+                  <h5 class="card-title onset-medium fs-28 mt-3">Что такое химиотерапия и как ее облегчить</h5>
+                  <p class="card-text fs-18 text-secondary">
+                    Химиотерапия – весьма эффективный метод терапии злокачественных заболеваний, основанный на введении противоопухолевых
+                    лекарственных агентов. Их механ...
+                  </p>
+                </div>
+              </div>
+              <div class="card card-news m-2 position-relative" style="border-top-left-radius: 20px; border-top-right-radius: 20px">
+                <span class="categories-news categories-red position-absolute">#Новости</span>
+                <img class="card-img-top" src="images/education-card-3.png" alt="Card image cap" />
+                <div class="card-body mt-4">
+                  <span class="fs-14 text-secondary">11.08.2024 • <a href="#" class="text-decoration-none">Читать ~11 минут</a></span>
+                  <h5 class="card-title onset-medium fs-28 mt-3">МРТ брюшной полости</h5>
+                  <p class="card-text fs-18 text-secondary">
+                    Магнитно-резонансная томография брюшной полости (МРТ ОБП) – высокоинформативная методика обследования органов живота, основанная
+                    на принци...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="row position-relative">
+            <div class="col-md-2 border-bottom-footer">
+              <img src="images/logo-footer.svg" alt="#" />
+              <p class="mt-5">283003, ДНР, г. Донецк, ул. Калужская, д.16а</p>
+              <p>
+                ИНН: 9303038031 <br />
+                ОГРН: 1249300013082
+              </p>
+            </div>
+            <div class="col-md-7 d-flex flex-column justify-content-between">
+              <ul class="navbar-nav footer-nav d-flex flex-md-row justify-content-between border-bottom-footer">
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">О клинике</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">Услуги</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">Врачи</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">Новости и статьи</a>
+                </li>
+                <li class="nav-item onset-regular m-80">
+                  <a class="nav-link" href="#">Контакты и реквизиты</a>
+                </li>
+              </ul>
+              <ul class="d-flex justify-content-between dn-mobile">
+                <li class="text-body-tertiary">©2024 «Диомед»</li>
+                <li>
+                  <a href="#" class="text-decoration-none text-body-tertiary">Политика конфиденциальности</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-body-tertiary">Пользовательское соглашение</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 align-items-md-end d-flex flex-column">
+              <h3 class="text-primary onset-medium fs-20">Наши контакты</h3>
+              <div class="d-flex flex-column align-items-md-end border-bottom-footer footer-contacts">
+                <a href="mailto:nachmed@diomed.clinic" class="navbar-text onset-medium text-decoration-none p-0">
+                  <img class="phone-icon" src="images/mail.svg" alt="" />nachmed@diomed.clinic
+                </a>
+                <a href="tel:+78563032303" class="navbar-text onset-medium text-decoration-none p-0">
+                  <img class="phone-icon" src="images/phone-icon.svg" alt="" />+7 (856) 303-23-03
+                </a>
+                <a href="tel:+79490999303" class="navbar-text onset-medium text-decoration-none p-0"> +7 (949) 099-93-03 </a>
+                <span class="text-body-tertiary fs-12">Круглосуточная запись</span>
+              </div>
+              <a class="button-top text-uppercase onset-medium fs-16 dn-mobile" href="/">НАЗАД <img src="images/top.svg" alt=""></a>
+            </div>
+            <ul class="d-flex justify-content-between dn-block-mobile" style="margin-top: 20px">
+              <li class="text-body-tertiary mb-3">©2024 «Диомед»</li>
+              <li class="mb-3">
+                <a href="#" class="text-decoration-none text-body-tertiary">Политика конфиденциальности</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-body-tertiary">Пользовательское соглашение</a>
+              </li>
+            </ul>
+            <a class="button-top text-uppercase onset-medium fs-16 dn-block-mobile text-end" href="/">НАЗАД <img src="images/top.svg" alt=""></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="libs/jquery.maskedinput-master/dist/jquery.maskedinput.min.js"></script>
+  <script src="libs/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="libs/swiper/swiper-bundle.min.js"></script>
+  <script src="js/common.js"></script>
+</html>
